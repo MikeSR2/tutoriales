@@ -1,2 +1,2 @@
 # tutoriales
-tutoriales de programacion
+Repositorio donde se encuentran los proyectos mostrados en los tutoriales del blog zonadecodigo.com
