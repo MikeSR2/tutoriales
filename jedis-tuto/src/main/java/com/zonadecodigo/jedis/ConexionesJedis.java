@@ -29,7 +29,7 @@ public final class ConexionesJedis {
             var mapa=new HashMap<String,String>();
             mapa.put("marca", "Ford");
             mapa.put("modelo", "Mustang");
-            jedis.hset("auto", mapa);
+            jedis.hmset("auto", mapa);
 
              //Ejecutando comandos basicos para extraer la informacion
             System.out.println("Extrayendo informacion");
