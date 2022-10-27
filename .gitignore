@@ -25,3 +25,4 @@ hs_err_pid*
 #vscode files
 .editorconfig
 settings.json
+jedis-tuto/target/checkstyle-cachefile
