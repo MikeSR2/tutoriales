@@ -32,7 +32,9 @@ jobs:
       id: jacoco
       uses: madrapps/jacoco-report@v1.6.1
       with:
-        path: ${{ github.workspace }}/redis-unit-test-tuto/target/jacoco.exec
+        paths: |
+            ${{ github.workspace }}/redis-unit-test-tuto/target/site/jacoco/index.html,
+            ${{ github.workspace }}/redis-unit-test-tuto/build/reports/jacoco/**/debugCoverage.xml
         token: ${{ secrets.GITHUB_TOKEN }}
         min-coverage-overall: 40
         min-coverage-changed-files: 60
