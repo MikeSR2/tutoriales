@@ -117,7 +117,7 @@
           </execution>
           <execution>
             <id>post-unit-test</id>
-            <phase>test</phase>
+            <phase>package</phase>
             <goals>
               <goal>report</goal>
             </goals>
