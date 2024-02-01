@@ -7,7 +7,7 @@ import redis.clients.jedis.JedisPool;
 
 /**
  * Clase donde se ejecutan algunas operaciones basicas de consulta
- * a redis utilizando Jedis
+ * a redis utilizando Jedis.
  */
 public final class ComandosRedis {
 
