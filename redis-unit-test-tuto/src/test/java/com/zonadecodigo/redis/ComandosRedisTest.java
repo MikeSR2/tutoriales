@@ -16,7 +16,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 
 /**
- * Unit test for simple App.
+ * Unit test for simple App..
  */
 class ComandosRedisTest {
     private static RedisServer redisMockServer;
