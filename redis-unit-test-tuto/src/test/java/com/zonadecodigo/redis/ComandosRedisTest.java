@@ -89,7 +89,7 @@ class ComandosRedisTest {
     }
 
     @Test
-    @DisplayName("Obtiene un hash con dos elementos")
+    @DisplayName("Obtiene un hash con dos elementoss")
     void pruebaHash(){
         var map=new HashMap<String,String>();
         map.put("uno", "elemento 1");
