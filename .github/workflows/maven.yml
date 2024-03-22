@@ -9,14 +9,15 @@
 name: Java CI with Maven
 
 on:
-  pull_request:
+  push:
     branches: [ "main" ]
-
+    
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
+    defaults:
+      run:
+        working-directory: ./jedis-unit-test-tuto
     steps:
     - uses: actions/checkout@v3
     - name: Set up JDK 17
